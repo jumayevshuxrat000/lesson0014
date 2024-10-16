@@ -1,0 +1,14 @@
+
+@mixin hoverText(){
+    transition: .35s;
+    cursor: pointer;
+    &:hover{
+        color: $bg-py;
+    }
+}
+
+@mixin df() {
+    display: flex;
+    align-items: center;
+    justify-self: center;
+}
